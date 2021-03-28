@@ -1,0 +1,19 @@
+.contact {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    background-size: cover;
+    text-align: center  ;
+    background: rgba(88, 88, 88, 0.288);
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+    }
+}
